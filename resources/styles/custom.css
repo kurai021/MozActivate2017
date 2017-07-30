@@ -1,0 +1,135 @@
+.center {
+  text-align: center;
+}
+
+/**progress**/
+.reveal .progress span {
+  background: #FE3467;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+ .reveal .controls .navigate-left {
+   right: 82px;
+ }
+
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-left.enabled {
+  border-right-color: #FE3467; }
+
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-right.enabled {
+  border-left-color: #FE3467; }
+
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-up.enabled {
+  border-bottom-color: #FE3467; }
+
+.reveal .controls .navigate-down,
+.reveal .controls .navigate-down.enabled {
+  border-top-color: #FE3467; }
+
+.reveal .controls .navigate-left.enabled:hover {
+  border-right-color: #000000; }
+
+.reveal .controls .navigate-right.enabled:hover {
+  border-left-color: #000000; }
+
+.reveal .controls .navigate-up.enabled:hover {
+  border-bottom-color: #000000; }
+
+.reveal .controls .navigate-down.enabled:hover {
+  border-top-color: #000000; }
+
+/*custom*/
+
+.reveal #site-description{
+  font-family: "Zilla Slab";
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: "Zilla Slab";
+}
+
+.reveal .twitter {
+  color: #fff;
+  display: block;
+  position: fixed;
+  text-align: right;
+  font-size: 20px;
+  bottom: 40px;
+  right: 0px;
+  z-index: 999;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.reveal .twitter:hover {
+  background-color: #FE3467;
+  color: #ffffff;
+}
+
+.masthead {
+  background-color: #ffffff;
+  z-index:9999;
+}
+
+#title-background .site-id {
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -2.5em;
+    overflow: hidden;
+    padding: 2.5em 20px 0;
+    position: relative;
+}
+
+#title-background .site-title-wrap {
+    color: #000;
+    position: relative;
+    z-index: 10;
+}
+
+.reveal .site-title-wrap {
+  text-align: left;
+}
+
+#site-title span, .title-content span {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: #FE3467;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.title-content {
+  text-align: center;
+}
+
+#site-description {
+  line-height: 0.5;
+}
+
+#site-description span {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background: #FE3467;
+    color: #fff;
+    padding: 0 10px;
+}
+
+@media (min-width:760px){
+  #site-title {
+    font-size: 50px;
+    font-size: 3.125rem;
+  }
+
+  #site-description {
+    font-size: 28px;
+    font-size: 1.75rem;
+  }
+}
